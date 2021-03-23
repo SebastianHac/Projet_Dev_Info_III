@@ -1,0 +1,63 @@
+<!-- Toolbar -->
+<div class="toolbar" role="banner">
+    <img
+      width="40"
+      alt="Angular Logo"
+      src="https://destenouest-formation.com/wp-content/uploads/prevention-formation-png-envoi-200x200.png"
+    />
+    <span>{{title}}</span>
+      <div class="blocNav">
+          <span class='nav'>Inscription</span>
+          <span class='nav'>Profil</span>
+      </div>
+  </div>
+  
+  <div class="content" role="profil">
+  
+    <h2>Mon profil</h2>
+    <p>Vous retrouverez ici toutes les informations vous concernant.</p>
+  
+    <input type="hidden" #selection>
+  
+    <div class="card-container">
+        
+      <div class="Photo">
+        <img
+      width="100"
+      alt="Angular Logo"
+             src="https://lh3.googleusercontent.com/proxy/_XWWq5aurtFK0RGUyYGip3_cTSNxJtXJ9al1iXUD6o4ppZSHiMsylq3z5JGRUNGZ5tcUEyfA6pqeII4Py-a3dJkfcSwsqZsFA0_pYDN1M3DkRAmOawolMV7hgakT"
+    />
+      </div>
+        
+      <div class="card card-small">
+        <span>Nom : {{nom}}</span>
+      </div>
+        
+      <div class="card card-small">
+        <span>Prénom : {{prenom}}</span>
+      </div>
+  
+      <div class="card card-small">
+        <span>Age : {{age}}</span>
+      </div>
+        
+      <div class="card card-small">
+        <span>Sexe : {{sexe}}</span>
+      </div>
+        
+      <div class="card card-small">
+        <span>Email : {{mail}}</span>
+      </div>
+        
+      <div class="card card-small">
+        <span>Téléphone : {{tel}}</span>
+      </div>
+  
+    </div>
+  
+    <!-- Footer -->
+    <footer>
+        Tout droit réservé à FormaOnline
+    </footer>
+  
+  </div>
