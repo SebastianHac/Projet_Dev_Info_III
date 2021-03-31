@@ -1,0 +1,33 @@
+GET http://localhost:4200/clients
+// afficher tous les clients
+###
+
+GET http://localhost:4200/clients/60638d50af10102010717648
+//afficher un client
+###
+
+POST http://localhost:4200/clients/add
+//ajouter un client
+Content-Type: application/json
+
+{
+    "nom": "Orta",
+    "prenom": "Mélodie",
+    "age": 21,
+    "sexe": "Femme",
+    "mail": "m.orta@yahoo.fr"
+}
+
+###
+
+PATCH http://localhost:3000/clients/60638d50af10102010717648
+Content-Type: application/json
+
+{
+    "nom": "horacle"
+}
+
+###
+
+DELETE http://localhost:4200/clients/606380e744039f4298e47b24
+//supprimer toutes les données d'un client (en entrant un id)
