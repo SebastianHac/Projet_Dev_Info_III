@@ -44,7 +44,6 @@
 .blocNav{
     position: absolute;
     right: 10px;
-    background-color: skyblue;
 }
 
 .nav{
@@ -172,3 +171,20 @@
       visibility: hidden;
     }
   }
+
+div{
+  text-align: center;
+
+}
+label{
+  text-align: left ;
+}
+.alert-required{
+  background-color: red;
+}
+.alert{
+
+  color: white;
+  margin-bottom: 15px;
+  text-align: left;
+}
